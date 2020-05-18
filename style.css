@@ -1,40 +1,36 @@
-body {
-  background: #fefefe;
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-h1 {
-  color: #5d6aa8;
-}
-
-h2 {
-  color: #1460aa;
-}
-
-h3 {
-  color: #a97fbd;
-}
-
-p {
-  color: #676870;
-}
-
-nav a {
-  color: darkslategrey;
-}
-
-#top {
-  background-color: rgb(207, 183, 123);
-}
-
-.nav-background {
-  background-color: #e7e3ac;
-}
-
-.intro-background {
-  background-color: #fae6a6;
+.navbar-link {
+  display: inline-block;
+  margin: 10px 5px;
+  color: #13C4A3;
 }
 
 .main {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.header__main {
+  
+  margin: 0 auto;  
+}
+
+.header_text{
+  margin: 0 auto;
+}
+
+.header__picture {
+  border-radius: 50%;
+  max-height: 500px;
+  display: block;
+  margin: 0 auto;  
+}  
+
+.main-footer {
+  max-width: 1200px;
+  margin: 100px auto 0 auto;
 }

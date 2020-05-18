@@ -9,24 +9,28 @@
 
   <body>
     <header>
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="ksiega-trucizn.html">Księga trucizn</a>
-        <a href="galeria.html">Galeria trucizn</a>
-        <a href="zamowienie.html">Zamów truciznę</a>
-        <a href="kontakt.html">Kontakt</a>
+      <nav class="navbar">
+        <a class="navbar-link" href="index.html">Strona główna</a>
+        <a class="navbar-link" href="ksiega-trucizn.html">Księga trucizn</a>
+        <a class="navbar-link" href="galeria.html">Galeria trucizn</a>
+        <a class="navbar-link" href="zamowienie.html">Zamów truciznę</a>
+        <a class="navbar-link" href="kontakt.html">Kontakt</a>
       </nav>
     </header>
 
     <main class="main">
-      <header class="header"id="top">
+      <header class="header" id="top">
         <h1 class="header__main"><strong>Wiedźmi Kocioł</strong></h1>
         <p class="header__text">Zawitaj w świat ... wielu możliwości</p>
         <img class="header__picture" src="splash.jpg" alt="szafka z fiolkami" />
       </header>
 
+      <section class="announcement">
+        <h2 class="announcement-heading">Nowości</h2>
+        <p class="announcement--injection"></p>
+      </section>
+
       <section class="intro">
-        
         <h2 class="intro__header">Wiele można zmienić</h2>
 
         <p class="intro__text">
@@ -38,7 +42,9 @@
       </section>
 
       <section class="main-description">
-        <h2 class="origin__heading--main">Kiedyś, teraz, to co będzie. Są z nami od zawsze.</h2>
+        <h2 class="origin__heading--main">
+          Kiedyś, teraz, to co będzie. Są z nami od zawsze.
+        </h2>
         <article class="origin">
           <h3 class="origin__heading">jak było ...</h3>
           <p class="origin__text">
@@ -70,8 +76,10 @@
     </main>
 
     <footer class="main-footer">
-      <p class="main-footer__text">Jeśli wrócisz... znaczy, że jeszcze nie znalazłeś</p>
-      <br />
+      <p class="main-footer__text">
+        Jeśli wrócisz... znaczy, że jeszcze nie znalazłeś
+      </p>
+
       <a class="main-footer__link" href="#top">Zawróć na początek</a>
     </footer>
 
