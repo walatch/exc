@@ -1,1 +1,1 @@
-console.log("Przybywaj!")
+console.log("Przybywaj!");

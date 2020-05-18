@@ -1,35 +1,40 @@
 body {
-    background: #fefefe;
+  background: #fefefe;
 }
 
 h1 {
-    color: #5d6aa8
+  color: #5d6aa8;
 }
 
 h2 {
-    color: #1460AA;
+  color: #1460aa;
 }
 
 h3 {
-    color: #a97fbd;
+  color: #a97fbd;
 }
 
 p {
-    color: #676870
+  color: #676870;
 }
 
 nav a {
-    color: darkslategrey;
+  color: darkslategrey;
 }
 
 #top {
-    background-color: rgb(207, 183, 123);
+  background-color: rgb(207, 183, 123);
 }
 
 .nav-background {
-    background-color: #e7e3ac;
+  background-color: #e7e3ac;
 }
 
 .intro-background {
-    background-color: #fae6a6;
+  background-color: #fae6a6;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
 }
